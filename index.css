@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.header{
+    
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+h2{
+    color:#063970;
+}
+
+
+
+.nav{
+    
+    height: 42px;
+    width: 100%;
+    background: linear-gradient(119.54deg,#000046,#1cb5e0);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+
+.logo{
+   
+    background-size: cover;
+    height: 50px;
+    width: 30px; 
+    margin-left: 2%;
+   
+    
+}
+.logo img{
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+.logo2{
+ 
+    background-size: cover;
+    height: 50px;
+    width: 20px;
+    padding-right: 100px;
+    margin-right: 1%;
+}
+
+
+
+h4{
+    color:#ffff;
+    padding-left: 20px;
+}
+
+
+
+
+.pge{
+  
+  background-color: #063970;
+  height: 80vh;
+  width: 100vw;
+
+   
+
+}
+
+
+.name label{
+    font-size: 60px;
+    color:white;
+    font-weight: 700;
+
+}
+
+
+.name{
+    padding: 20px 40px;
+    line-height-step: 5px;
+}
+
+.name p{
+    color:white;
+}
+
+.login{
+height: 75%;
+width: 25%;
+background-color: white;
+border-radius: 5px;
+margin-left: 10%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 4%;
+flex-direction: column;
+}
+.image{
+    background-size: cover;
+    margin-bottom: 25%;
+}
+
+.image img{
+    height: 110px;
+    width: 100px;
+
+
+}
+
+.login2 button{
+    padding: 8px 80px;
+    background: linear-gradient(119.54deg,#000046,#1cb5e0);
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+
+.login p{
+    font-size: 8px;
+
+}
+
+.main{
+    background-image: url(https://myaadhaar.uidai.gov.in/static/media/Blue_BackGround_3.025d7a6749ab722c3352.jpg);
+    background-size: cover;
+    height: 370px;
+    width: 100%;
+    display:flex;
+  
+
+}
+
+.lan{
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 100%;
+    padding: 0px 30px;
+    margin-bottom: 200px;
+}
+.lan h4{
+    color: white;
+}
+
+
+.lan2{
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 100%;
+    padding: 0px 30px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    
+   
+}
+
+.lan2 h5{
+    color: rgb(1, 1, 3);
+    
+}
+
+.webname{
+   
+    color: rgb(12, 12, 19);
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+
+   
+}
+
+.servicecard{
+    display: flex;
+}
+
+.servicecard2{
+    display: flex;
+}
+
+.box1{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+    
+}
+
+.image3{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+.info{
+    
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.info2{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+.box2{
+  
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+}
+
+
+.image4{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+.info1{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.info3{
+font-size: 11px;
+margin-left: 15px;
+margin-top: 15px;
+}
+
+
+.box3{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+}
+
+
+.image5{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+.info4{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+
+.info5{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+.box4{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+
+}
+
+
+.image6{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.info6{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+
+.info7{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.box5{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+    box-shadow: 2px;
+
+}
+
+
+.image7{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.info8{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+
+.info9{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+.box6{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+    box-shadow: 2px;
+}
+
+
+.image10{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.info11{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.info12{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+.box7{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+    box-shadow: 2px;
+}
+
+.image11{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.info13{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.info14{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+.webname2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 11px;
+    color: black;
+    margin-top: 15px;
+}
+
+
+.box8{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-top: 3%;
+
+}
+
+
+.image12{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.info15{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.info16{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.box9{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-top: 3%;
+
+}
+
+
+.image13{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.info17{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.info18{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+
+.box10{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-top: 3%;
+}
+
+
+.image14{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.info19{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+.info20{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+
+.box11{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-top: 3%;
+}
+
+
+.image15{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.info21{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+.info22{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.servicecard3{
+    display: flex;
+}
+
+
+.box12{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-top: 3%;
+}
+
+.image16{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.info23{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.info24{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+.box13{
+    height: 160px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-top: 3%;
+}
+
+
+.image17{
+    background-size: cover;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.info25{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.info26{
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
